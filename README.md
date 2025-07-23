@@ -73,7 +73,6 @@ Visulize how documents cluster in embedding space, I used **UMAP (Uniform Manifo
 <p align="center">
   <img src="llm_search/charts/umap_plot.png" alt="UMAP" width="600"/>
 </p>
----
 
 ## Technologies Used
 
