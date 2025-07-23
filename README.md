@@ -70,8 +70,9 @@ This project implements a **four-stage semantic search pipeline** designed for e
 UMAP (Uniform Manifold Approximation and Projection) is a dimension reduction technique that helps to capture the global structure while preserving local neighborhood distances. Each point in the chart corresponds to an article, and proximity indicates semantic closeness in the embedding space.
 Visulize how documents cluster in embedding space, I used **UMAP (Uniform Manifold Approximation and Projection)** to reduce the embeddings to 2D for plotting.
 
-![UMAP](charts/umap_plot.png)
-
+<p align="center">
+  <img src="ll_search/charts/umap_plot.png" alt="UMAP" width="600"/>
+</p>
 ---
 
 ## Technologies Used
