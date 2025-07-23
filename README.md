@@ -2,18 +2,6 @@
 
 This project implements a **four-stage semantic search pipeline** designed for efficient, accurate, and scalable information retrieval using Large Language Models (LLMs). The pipeline combines keyword filtering, dense vector-based retrieval using Cohere embeddings, approximate nearest neighbor (ANN) search with Annoy, external vector database support via Weaviate, and a re-ranking module based on LLM inference.
 
-User Query
-│
-├──▶ Stage 1: Keyword Search (BM25)
-│ ↓
-├──▶ Stage 2: Embedding Generation (Cohere Embed v3)
-│ ↓
-├──▶ Stage 3: Dense Vector Retrieval (Annoy - Approx. kNN)
-│ ↓
-├──▶ Stage 4: Reranking with Cosine Similarity / Cross Encoder (optional)
-│
-▼
-Top-k Semantically Relevant Results
 
 ---
 
