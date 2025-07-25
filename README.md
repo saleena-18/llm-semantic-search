@@ -14,11 +14,6 @@ This project implements a **four-stage semantic search pipeline** designed for e
 - Efficiently retrieves documents with exact or partial keyword matches.
 - Helps to reduce initial search space for downstream dense retrieval.
 
-**Concepts Involved**:
-- Inverted Index
-- Term Frequency-Inverse Document Frequency (TF-IDF)
-- Probabilistic IR Models
-
 ---
 
 ### Stage 2: Embedding Generation
@@ -27,11 +22,6 @@ This project implements a **four-stage semantic search pipeline** designed for e
 - Input queries and documents are embedded into high-dimensional space using `Cohere's Embed API v3`.
 - Produces fixed-length semantic vectors.
 - Captures contextual meaning beyond surface-level keywords.
-
-**Concepts Involved**:
-- Transformer-based Sentence Embeddings
-- Transfer Learning
-- Semantic Vector Space
 
 ---
 
@@ -57,11 +47,6 @@ This project implements a **four-stage semantic search pipeline** designed for e
                       Uses Weaviate’s built-in reranker modules like rerank-cohere
 - Reduces noise from ANN output
 - Applies LLM-based reranking for higher semantic granularity
-
-**Concepts Involved**:
-- Dense Retrieval + Reranking Architecture (used in OpenAI, Google, etc.)
-- Cosine Similarity
-- Cross-Attention-based Scoring
 
 ---
 
