@@ -64,8 +64,8 @@ UMAP (Uniform Manifold Approximation and Projection) is a dimension reduction te
 - **Cohere Embed v3** – Proprietary LLM for generating semantic sentence/document embeddings.
 - **Annoy** – Approximate Nearest Neighbor search using angular distance.
 - **UMAP** – Dimensionality reduction to 2D for visualization.
-- **Pandas / Numpy / Scikit-learn** – Data wrangling and numerical computations.
-- **Matplotlib / Altair** – Visualization of UMAP clusters.
+- **Pandas , Numpy , Scikit-learn** – Data wrangling and numerical computations.
+- **Matplotlib , Altair** – Visualization of UMAP clusters.
 - **Jupyter Notebooks** – Experimentation and iteration.
 
 ---
